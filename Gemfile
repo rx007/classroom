@@ -38,7 +38,7 @@ gem 'peek-pg'
 gem 'peek-sidekiq', github: 'Soliah/peek-sidekiq', ref: '261c857578ae6dc189506a35194785a4db51e54c'
 
 gem 'pg'
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 
 gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
@@ -79,7 +79,7 @@ group :production do
   gem 'dalli'
   gem 'newrelic_rpm'
   gem 'pinglish'
-  gem 'puma_worker_killer'
+  gem 'puma_worker_killer', '>= 0.1.1'
   gem 'rack-tracker'
   gem 'rails_12factor'
 end

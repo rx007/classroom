@@ -47,7 +47,7 @@ gem 'redis-namespace'
 gem 'sprockets'
 gem 'sass-rails', '~> 5.0'
 gem 'sidekiq', '~> 4.1.0'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.0'
 
 gem 'turbolinks'
 

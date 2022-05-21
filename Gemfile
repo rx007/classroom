@@ -7,7 +7,7 @@ gem 'airbrake'
 gem 'autoprefixer-rails'
 
 gem 'chewy'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 gem 'draper'
 
@@ -45,7 +45,7 @@ gem 'rack-timeout', require: false
 gem 'redis-namespace'
 
 gem 'sprockets'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 gem 'sidekiq', '~> 4.1.0'
 gem 'sinatra'
 

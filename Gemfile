@@ -26,8 +26,8 @@ gem 'kaminari'
 gem 'local_time'
 
 gem 'octokit'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-github', '>= 2.0.0'
 
 gem 'peek'
 gem 'peek-dalli'

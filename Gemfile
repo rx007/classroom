@@ -76,7 +76,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'dalli'
+  gem 'dalli', '>= 3.2.3'
   gem 'newrelic_rpm'
   gem 'pinglish'
   gem 'puma_worker_killer'

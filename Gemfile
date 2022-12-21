@@ -44,8 +44,8 @@ gem 'rack-canonical-host'
 gem 'rack-timeout', require: false
 gem 'redis-namespace'
 
-gem 'sprockets'
-gem 'sass-rails', '~> 5.0'
+gem 'sprockets', '>= 4.2.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'sidekiq', '~> 4.1.0'
 gem 'sinatra'
 

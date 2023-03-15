@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'rails', '4.2.6'
+gem 'rails', '6.1.7.3'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
 
 gem 'chewy'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2.2'
 
 gem 'draper'
 
@@ -18,7 +18,7 @@ gem 'flipper-ui'
 
 gem 'geo_pattern'
 
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.6.4'
 gem 'jquery-turbolinks'
 
 gem 'kaminari'
@@ -45,7 +45,7 @@ gem 'rack-timeout', require: false
 gem 'redis-namespace'
 
 gem 'sprockets'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'sidekiq', '~> 4.1.0'
 gem 'sinatra'
 
@@ -63,11 +63,11 @@ end
 group :development, :test do
   gem 'awesome_print', require: 'ap'
   gem 'bullet'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'guard-rspec', require: false
   gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.0'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
   gem 'coffeelint', require: false

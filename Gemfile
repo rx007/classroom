@@ -40,7 +40,7 @@ gem 'peek-sidekiq', github: 'Soliah/peek-sidekiq', ref: '261c857578ae6dc189506a3
 gem 'pg'
 gem 'puma'
 
-gem 'rack-canonical-host'
+gem 'rack-canonical-host', '>= 1.2.0'
 gem 'rack-timeout', require: false
 gem 'redis-namespace'
 

@@ -14,7 +14,7 @@ gem 'draper'
 gem 'faraday-http-cache'
 gem 'flipper'
 gem 'flipper-redis'
-gem 'flipper-ui'
+gem 'flipper-ui', '>= 1.0.0'
 
 gem 'geo_pattern'
 

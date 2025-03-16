@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'rails', '4.2.6'
+gem 'rails', '7.0.0'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -21,15 +21,15 @@ gem 'geo_pattern'
 gem 'jbuilder'
 gem 'jquery-turbolinks'
 
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 
-gem 'local_time'
+gem 'local_time', '>= 2.0.0'
 
 gem 'octokit'
 gem 'omniauth'
 gem 'omniauth-github'
 
-gem 'peek'
+gem 'peek', '>= 1.0.1'
 gem 'peek-dalli'
 gem 'peek-gc'
 gem 'peek-git'
@@ -45,11 +45,11 @@ gem 'rack-timeout', require: false
 gem 'redis-namespace'
 
 gem 'sprockets'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'sidekiq', '~> 4.1.0'
 gem 'sinatra'
 
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 gem 'uglifier', '>= 1.3.0'
 

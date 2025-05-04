@@ -67,7 +67,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'rubocop',   require: false
   gem 'scss_lint', require: false
   gem 'coffeelint', require: false
